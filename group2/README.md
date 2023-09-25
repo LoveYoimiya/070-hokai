@@ -87,7 +87,7 @@
   "log_level": "8"
 }
 ```
-- test_wxk_7
+- test_wxk_7(最终战绩5-5)
 ```
 # 在模型6的基础上增加防御塔血量、对敌人伤害、最后一击
 {
@@ -99,6 +99,36 @@
   "reward_dead": "-1.12",
   "reward_tower_hp_point": "5.55",
   "reward_last_hit": "0.6",
+  "log_level": "8"
+}
+```
+- test_wxk_8(最终战绩4-6)
+```
+# 在模型6的基础上增加防御塔血量、对敌人伤害、最后一击
+{
+  "reward_money": "0.009",
+  "reward_exp": "0.009" ,
+  "reward_hp_point": "3.05",
+  "reward_ep_rate": "0.75",
+  "reward_kill": "-0.67",
+  "reward_dead": "-1.12",
+  "reward_tower_hp_point": "5.53",
+  "reward_last_hit": "0.55",
+  "log_level": "8"
+}
+```
+- test_wxk_9
+```
+# 在模型5的基础上增加防御塔血量、对敌人伤害、最后一击
+{
+  "reward_money": "0.009",
+  "reward_exp": "0.009" ,
+  "reward_hp_point": "3.02",
+  "reward_ep_rate": "0.75",
+  "reward_kill": "-0.65",
+  "reward_dead": "-1.1",
+  "reward_tower_hp_point": "5.52",
+  "reward_last_hit": "0.52",
   "log_level": "8"
 }
 ```
