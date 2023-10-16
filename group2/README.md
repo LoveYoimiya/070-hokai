@@ -117,7 +117,7 @@
   "log_level": "8"
 }
 ```
-- test_wxk_9
+- test_wxk_9（最终战绩10-0）
 ```
 # 在模型5的基础上增加防御塔血量、对敌人伤害、最后一击
 {
@@ -128,6 +128,51 @@
   "reward_kill": "-0.65",
   "reward_dead": "-1.1",
   "reward_tower_hp_point": "5.52",
+  "reward_last_hit": "0.52",
+  "log_level": "8"
+}
+```
+- test_wxk_10
+```
+# 在模型9的基础上增加对敌人伤害、最后一击，增大死亡惩罚
+{
+  "reward_money": "0.009",
+  "reward_exp": "0.009" ,
+  "reward_hp_point": "3.03",
+  "reward_ep_rate": "0.75",
+  "reward_kill": "-0.65",
+  "reward_dead": "-1.12",
+  "reward_tower_hp_point": "5.52",
+  "reward_last_hit": "0.53",
+  "log_level": "8"
+}
+```
+- test_wxk_11
+```
+# 在模型9的基础上增加经济、经验、增大击杀惩罚、降低死亡惩罚、增大推塔奖励
+{
+  "reward_money": "0.011",
+  "reward_exp": "0.011" ,
+  "reward_hp_point": "3.03",
+  "reward_ep_rate": "0.75",
+  "reward_kill": "-0.67",
+  "reward_dead": "-1.1",
+  "reward_tower_hp_point": "5.54",
+  "reward_last_hit": "0.53",
+  "log_level": "8"
+}
+```
+- test_wxk_12
+```
+# 在模型9的基础上增加经济、经验、增大击杀惩罚、降低死亡惩罚、增大推塔奖励
+{
+  "reward_money": "0.01",
+  "reward_exp": "0.01" ,
+  "reward_hp_point": "3.02",
+  "reward_ep_rate": "0.75",
+  "reward_kill": "-0.7",
+  "reward_dead": "-1.0",
+  "reward_tower_hp_point": "5.6",
   "reward_last_hit": "0.52",
   "log_level": "8"
 }
